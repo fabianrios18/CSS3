@@ -1,0 +1,29 @@
+
+/*target ejemplo*/
+
+h1:target{ 
+
+	background-color:#CFF; 
+	color:#333; 
+	text-decoration:line-through;
+}
+
+/*target-name ejemplo:*/
+
+a[target=_blank] { 
+    
+	background-color: yellow;
+}
+
+/*target-new ejemplo:*/
+
+a{
+	target-name:new;
+	target-new:tab;
+}
+
+/*target-position ejemplo:*/
+a{
+	target-name:new;
+	target-position:front;
+}

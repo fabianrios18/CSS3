@@ -1,0 +1,51 @@
+
+ejemplo ruby-align:
+<ruby>
+  <rb>This is a long text to check</rb>
+  <rp>(</rp><rt>short ruby</rt><rp>)</rp>
+</ruby>
+Ruby aligned at the start of the base text
+
+ruby {
+  ruby-align:start;
+}
+Ruby aligned at the center of the base text
+
+ruby {
+  ruby-align:center;
+}
+
+ejemplo ruby position:
+<ruby>
+  <rb>????</rb>
+  <rp>(</rp><rt>?????</rt><rp>)</rp>
+</ruby>
+Ruby positioned over the text
+
+ruby {
+    ruby-position:over;
+}
+Ruby positioned under the text
+
+ruby {
+    ruby-position:under;
+}
+
+ejemplo ruby overhag:
+<ruby>
+  <rb>?</rb><rb>?</rb><rb>?</rb><rb>?</rb>
+  <rp>(</rp><rt>?</rt><rt>?</rt><rt>?</rt><rt>?</rt><rp>)</rp>
+<ruby>
+The rules preserving white space allow ruby to be used with space-separated scripts such as Latin. For example,
+
+<ruby>
+  <rb>W</rb><rb>W</rb><rb>W</rb>
+  <rt>World</rt> <rt>Wide</rt> <rt>Web</rt>
+</ruby>
+They also ensure that annotated white space is preserved. For example,
+
+<ruby>
+  <rb>Aerith</rb><rb> </rb><rb>Gainsboro</rb>
+  <rt>????</rt><rt>·</rt><rt>???????</rt>
+</ruby>
+

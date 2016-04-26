@@ -1,0 +1,125 @@
+bottom ejemplo:
+div {
+  bottom: -10px;
+}
+div {
+  bottom: 0;
+}
+div {
+  bottom: 10px;
+}
+
+clip ejemplo:
+p { border:dotted;  position:relative; }
+
+#img2 {
+  position:absolute;  left:263px;
+
+  clip: rect(40px, 200px, 150px, 30px); 
+  /* sintáxis estándar, no soportada por Internet Explorer 4-7 */
+}
+
+#img3 {
+  position: absolute; left:526px;
+
+  clip: rect(40px  200px  150px  30px);
+  /* sintáxis no-estándar,
+ pero soportada por todos
+ los exploradores importantes 
+incluyendo Firefox y IE */
+}
+
+LEFT EJEMPLO:
+div {
+  left: 20px;
+}
+div {
+  left: 0;
+}
+div {
+  left: -20px;
+}
+
+ejemplo position:
+.container {
+  position: relative;
+}
+nav {
+  position: absolute;
+  left: 0px;
+  width: 200px;
+}
+section {
+  /* position is static by default */
+  margin-left: 200px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+}
+body {
+  margin-bottom: 120px;
+}
+
+
+ejemplo right:
+div {
+  right: 20px;
+}
+div {
+  right: 0;
+}
+div {
+  right: -20px;
+}
+
+ejemplo top:
+
+div {
+  top: -10px;
+} div {
+  top: 0;
+} div {
+  top: 10px;
+}
+
+
+ejemplo z-index:
+#diez_de_diamantes {
+		position: absolute;
+		left: 100px;
+		top: 100px;
+		z-index: 1;
+	}
+
+	#sota_de_diamantes {
+		position: absolute;
+		left: 115px;
+		top: 115px;
+		z-index: 2;
+	}
+
+	#reina_de_diamantes {
+		position: absolute;
+		left: 130px;
+		top: 130px;
+		z-index: 3;
+	}
+
+	#rey_de_diamantes {
+		position: absolute;
+		left: 145px;
+		top: 145px;
+		z-index: 4;
+	}
+
+	#as_de_diamantes {
+		position: absolute;
+		left: 160px;
+		top: 160px;
+		z-index: 5;
+	}

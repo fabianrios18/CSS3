@@ -1,0 +1,48 @@
+/*de cada línea que forma el contenido de texto 
+de un elemento, por lo que se emplea para controlar 
+el interlineado del texto. El uso de line-height es 
+imprescindible cuando se quiere facilitar la lectura
+ de los contenidos de una página.*/
+
+line-height: 1
+line-height: normal
+line-height: 24px 
+line-height: 16pt
+line-height: 130%
+
+La line-stacking propiedad es una propiedad 
+abreviada para establecer '  'line-stacking-ruby',
+ 'line-stacking-shift' and
+ 'line-stacking-strategy'.
+Formal syntax: <line-stacking-strategy> 
+|| <line-stacking-ruby> || <line-stacking-shift>
+
+line-stacking: max-height include-ruby 
+disregard-shifts;
+
+ejemplo stacking:
+
+.class {
+   line-stacking: max-height include-ruby 
+disregard-shifts; 
+}
+
+
+ejemplo ruby:
+.class {
+   line-stacking-ruby: include-ruby ; 
+ejemplo stacking shif:
+.class {
+   line-stacking-shift: disregard-shifts ; 
+}
+ejemplo stacking strategy:
+.class {
+   line-stacking-strategy: max-height; 
+}
+
+vertical-align ejemplo:
+
+img {
+    vertical-align: text-top;
+}
+
